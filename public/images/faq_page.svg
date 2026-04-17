@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  
+  <!-- 页面标题 -->
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#111827">常见问题</text>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#6b7280">补货过程中可能遇到的问题及解决方案</text>
+  
+  <!-- 返回首页按钮 -->
+  <rect x="100" y="180" width="200" height="50" rx="25" fill="#3b82f6"/>
+  <text x="200" y="215" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">← 返回首页</text>
+  
+  <!-- 常见问题列表 -->
+  <rect x="300" y="250" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="295" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">找不到要补的商品怎么办？</text>
+  <text x="850" y="295" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">−</text>
+  
+  <rect x="300" y="320" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="365" font-family="Arial, sans-serif" font-size="20" fill="#6b7280">问主管或同事，他们会帮你找。</text>
+  
+  <rect x="300" y="400" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="445" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">商品放错位置了怎么办？</text>
+  <text x="850" y="445" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">+</text>
+  
+  <rect x="300" y="480" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="525" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">商品太重拿不动怎么办？</text>
+  <text x="850" y="525" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">+</text>
+  
+  <rect x="300" y="560" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="605" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">货位太高手够不到怎么办？</text>
+  <text x="850" y="605" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">+</text>
+  
+  <rect x="300" y="640" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="685" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">商品包装破了怎么办？</text>
+  <text x="850" y="685" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">+</text>
+  
+  <rect x="300" y="720" width="600" height="70" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="350" y="765" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">不知道补多少货怎么办？</text>
+  <text x="850" y="765" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3b82f6">+</text>
+</svg>
