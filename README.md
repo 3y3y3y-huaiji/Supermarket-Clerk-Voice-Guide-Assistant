@@ -1,57 +1,118 @@
-# React + TypeScript + Vite
+# 超市补货流程指南
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一个为轻度心智障碍者设计的超市补货流程指南应用，提供简单直观的步骤指导和语音播报功能。
 
-Currently, two official plugins are available:
+## 功能特性
+- 简洁明了的补货步骤指南
+- 语音播报功能，帮助理解步骤内容
+- 常见问题解答
+- 响应式设计，适配不同设备
+- 主题切换功能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 技术栈
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Zustand (状态管理)
+- Web Speech API (语音播报)
 
-## Expanding the ESLint configuration
+## 安装和运行
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 前置要求
+- Node.js 16.0 或更高版本
+- npm 7.0 或更高版本
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 安装步骤
+1. 克隆项目
+   ```bash
+   git clone <项目地址>
+   cd <项目目录>
+   ```
+
+2. 安装依赖
+   ```bash
+   npm install
+   ```
+
+3. 运行开发服务器
+   ```bash
+   npm run dev
+   ```
+
+4. 构建生产版本
+   ```bash
+   npm run build
+   ```
+
+5. 预览生产构建
+   ```bash
+   npm run preview
+   ```
+
+## 项目结构
+```
+├── public/             # 静态资源
+├── src/
+│   ├── assets/         # 图片等资源
+│   ├── components/     # 通用组件
+│   ├── data/           # 数据文件
+│   ├── hooks/          # 自定义钩子
+│   ├── lib/            # 工具函数
+│   ├── pages/          # 页面组件
+│   │   ├── Home.tsx    # 首页（步骤列表）
+│   │   ├── StepDetail.tsx # 步骤详情页
+│   │   └── Faq.tsx     # 常见问题页
+│   ├── App.tsx         # 应用主组件
+│   ├── main.tsx        # 应用入口
+│   └── index.css       # 全局样式
+├── index.html          # HTML 入口
+├── package.json        # 项目配置
+├── tailwind.config.js  # Tailwind 配置
+├── tsconfig.json       # TypeScript 配置
+└── vite.config.ts      # Vite 配置
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 使用说明
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 首页
+- 展示所有补货步骤卡片
+- 点击卡片进入对应步骤详情
+- 点击"常见问题"按钮查看常见问题解答
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 步骤详情页
+- 显示当前步骤的详细说明
+- 点击"播放语音"按钮听取步骤说明
+- 使用"上一步"和"下一步"按钮导航
+- 点击"返回首页"按钮返回步骤列表
+- 点击"查看常见问题"按钮查看常见问题解答
+
+### 常见问题页
+- 展示补货过程中可能遇到的问题及解决方案
+- 点击问题展开/收起答案
+- 点击"返回首页"按钮返回步骤列表
+
+## 补货步骤
+1. 找到空货位
+2. 拿取补货商品
+3. 核对商品标签
+4. 放入对应货位
+5. 调整商品位置
+6. 检查补货完成
+7. 记录补货完成
+
+## 常见问题
+- 找不到要补的商品怎么办？
+- 商品放错位置了怎么办？
+- 商品太重拿不动怎么办？
+- 货位太高手够不到怎么办？
+- 商品包装破了怎么办？
+- 不知道补多少货怎么办？
+- 补货时顾客挡住了怎么办？
+- 商品标签看不清楚怎么办？
+- 补货时摔了商品怎么办？
+- 补完货后要做什么？
+
+## 项目目标
+本项目旨在为轻度心智障碍者提供一个简单、直观的超市补货流程指南，通过清晰的步骤说明和语音播报功能，帮助他们更好地完成补货任务，提高工作效率和自信心。
