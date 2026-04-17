@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#111827">超市补货流程指南</text>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#6b7280">为轻度心智障碍者设计的简单步骤指南</text>
+  
+  <!-- 步骤卡片 -->
+  <rect x="200" y="200" width="300" height="150" rx="16" fill="#3b82f6"/>
+  <text x="350" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">1</text>
+  <text x="350" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">找到空货位</text>
+  
+  <rect x="550" y="200" width="300" height="150" rx="16" fill="#10b981"/>
+  <text x="700" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">2</text>
+  <text x="700" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">拿取补货商品</text>
+  
+  <rect x="900" y="200" width="300" height="150" rx="16" fill="#f59e0b"/>
+  <text x="1050" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">3</text>
+  <text x="1050" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">核对商品标签</text>
+  
+  <rect x="200" y="400" width="300" height="150" rx="16" fill="#f97316"/>
+  <text x="350" y="480" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">4</text>
+  <text x="350" y="520" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">放入对应货位</text>
+  
+  <rect x="550" y="400" width="300" height="150" rx="16" fill="#ef4444"/>
+  <text x="700" y="480" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">5</text>
+  <text x="700" y="520" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">调整商品位置</text>
+  
+  <rect x="900" y="400" width="300" height="150" rx="16" fill="#8b5cf6"/>
+  <text x="1050" y="480" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">6</text>
+  <text x="1050" y="520" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">检查补货完成</text>
+  
+  <rect x="550" y="600" width="300" height="150" rx="16" fill="#14b8a6"/>
+  <text x="700" y="680" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">7</text>
+  <text x="700" y="720" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">记录补货完成</text>
+  
+  <!-- 常见问题按钮 -->
+  <rect x="550" y="760" width="300" height="60" rx="30" fill="#f97316"/>
+  <text x="700" y="800" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">常见问题</text>
+</svg>
